@@ -7,7 +7,7 @@ public class Functiontest {
     @Test
     public void tesIsFive() {
         Function main = new Function();
-        boolean five = main .isFive(5);
+        boolean five = main .isFive(6);
         Assertions.assertEquals(five, true);
     }
     @Test
